@@ -1,0 +1,146 @@
+/* Resets default margins and padding for various elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defines the default font, background color, and styles for the entire page */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #e0e0e0; 
+}
+
+/* Styles the main content container with margins, padding, background color, and a subtle box shadow */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #b8c4d6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Resets margins and padding for body and unordered lists */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles the header with background color, text color, alignment, and padding */
+header {
+    background-color: #222536;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles the navigation list with flex display, center alignment, and background color */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e9e8e8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adds margins to navigation list items */
+nav li {
+    margin: 10px;
+}
+
+/* Styles navigation links with text decoration and color */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Styles navigation list items with inline display, margins, and bold font weight */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Styles navigation links within navigation list items with text decoration and color */
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Styles the heading level 1 with font size and margin */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styles the heading level 2 with font size and margin */
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Styles paragraphs with margin */
+p {
+    margin-bottom: 30px;
+}
+
+/* Styles the contact form with background color, padding, and border radius */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Styles form labels with display, margin, and bold font weight */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styles form inputs and textareas with width, padding, margin, border, and border radius */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styles form buttons with background color, text color, padding, margin, and border radius */
+form button {
+    display: block;
+    background-color: #1a405f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Styles elements with the "project" class to initially hide them */
+.project {
+    display: none;
+}
+
+/* Styles project images with max width, height auto, and centered display */
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles sections with margins, top border, and padding */
+section {
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* Styles project images within sections for responsiveness and center alignment */
+.project img {
+    max-width: 100%;
+    max-height: 700px;
+    display: block;
+    margin: 0 auto;
+}

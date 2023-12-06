@@ -1,0 +1,93 @@
+<!-- 
+Rashid Warsajee
+040946714
+CST8285
+Assignment 1
+Due Nov 5th 2023
+-->
+
+
+<!DOCTYPE html>                       <!-- Standard HTML header with links to stylesheet-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashid Warsajee - Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rashid Warsajee</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>               <!-- Unordered list for website page navigation-->
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="projects">              <!-- Projects section with appropriate headers and image links for each project-->
+            <h2>Projects:</h2>
+            <p></p>
+            <div class="project" id="project1">
+                <h3>Travel Blog Page</h3>
+                <p></p>
+                <p><strong>Date Completed:</strong> Oct/06/2023</p>
+                <p><strong>Languages Used:</strong> HTML, CSS</p>
+                <p>
+                    Description: This was a webpage I created for a newsletter regarding the amazon rainforest.
+                </p>
+                <img src="images/blog.PNG" alt="Project 1 Screenshot">
+            </div>
+
+            <div class="project" id="project2">     <!-- Project 2 Section-->
+                <h3>Joke Generator Project</h3>
+                <p></p>
+                <p><strong>Date Completed:</strong>  10/20/2023</p>
+                <p><strong>Languages Used:</strong> HTML, CSS, JavaScript</p>
+                <p>
+                    Description: This is a project I created where a webpage generates jokes when you press a button.
+                </p>
+                <img src="images/joke.PNG" alt="Project 2 Screenshot">
+            </div>
+            
+            <div class="project" id="project3">                          <!-- Project 3 Section-->
+                <h3>BMI Calculator</h3>
+                <p></p>
+                <p><strong>Date Completed:</strong> 10/14/2023</p>
+                <p><strong>Languages Used:</strong> Java</p>
+                <p>
+                    Description: This is a java project that I created that calculates a persons BMI after receiving the necessary information from the user
+                </p>
+                <img src="images/BMICalculator.PNG" alt="Project 3 Screenshot">
+            </div>
+            
+            <div class="project" id="project4">                 <!-- Project 4 Section -->
+                <h3>Air Quality Health Index Recorder</h3>
+                <p></p>
+                <p><strong>Date Completed:</strong> 08/2/2023</p>
+                <p><strong>Languages Used:</strong> Java</p>
+                <p>
+                    Description: This is a project I made that will display the Air Quality Health Index after receiving information from the user.
+                </p>
+                <img src="images/AQHI.PNG" alt="Project 4 Screenshot">
+            </div>
+            
+
+            <!-- Previous and Next buttons for project selection-->
+            <p></p> 
+
+            <div class="project-navigation">
+                <button onclick="showPreviousProject()">Previous</button>
+                <button onclick="showNextProject()">Next</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Rashid Warsajee <!-- Footer with copyright-->
+    </footer>
+    <script src="projects.js"></script> <!-- Javascript link at the end of the body to prevent issues with html parsing-->
+</body>
+</html>
